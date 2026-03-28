@@ -14,7 +14,7 @@ Click any section below to expand the topics.
 * [HTML HOME](https://github.com/Joaquimdacosta1999/HTML-Roadmap/blob/main/HTML%20Fundamental/html_home.md)
 * [HTML Introduction](https://github.com/Joaquimdacosta1999/HTML-Roadmap/blob/main/HTML%20Fundamental/html_introduction.md)
 * [HTML Editors](https://github.com/Joaquimdacosta1999/HTML-Roadmap/blob/main/HTML%20Fundamental/html_editors.md)
-* [HTML Basic](#)
+* [HTML Basic](https://github.com/Joaquimdacosta1999/HTML-Roadmap/blob/main/HTML%20Fundamental/html_basic_examples.md)
 * [HTML Elements](#)
 * [HTML Attributes](#)
 * [HTML Headings](#)
