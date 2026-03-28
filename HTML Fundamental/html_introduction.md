@@ -36,13 +36,13 @@ HTML is the standard markup language for creating Web pages.
 
 ## Example Explained
 
-* The <b><!DOCTYPE html></b> declaration defines that this document is an HTML5 document
-* The <b><html></b> element is the root element of an HTML page
-* The <b><head></b> element contains meta information about the HTML page
-* The <b><title></b> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab) 
-* The <b><body></b> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
-* The <b><h1></b> element defines a large heading
-* The <b><p></b> element defines a paragraph
+* The `<!DOCTYPE html>` declaration defines that this document is an HTML5 document
+* The `<html>` element is the root element of an HTML page
+* The `<head>` element contains meta information about the HTML page
+* The `<title>` element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab) 
+* The `<body>` element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
+* The `<h1>` element defines a large heading
+* The `<p>` element defines a paragraph
 
 
 ## What is an HTML Element?
@@ -97,7 +97,7 @@ Below is a visualization of an HTML page structure:
 
 Since the early days of the World Wide Web, there have been many versions of HTML:
 
-|| Year | Version |
+| Year | Version |
 | :--- | :--- |
 | 1989 | Tim Berners-Lee invented www |
 | 1991 | Tim Berners-Lee invented HTML |
