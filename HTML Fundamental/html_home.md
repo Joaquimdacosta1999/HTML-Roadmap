@@ -6,25 +6,22 @@ HTML is easy to learn - You will enjoy it!
 
 ## Learning by Examples
 
+## Learning by Examples
+
+```html
 <!DOCTYPE html>
 <html>
-
 <head>
-
-<title>Page Title</title>
-
+  <title>Page Title</title>
 </head>
-
 <body>
 
-<h1>This is a Heading<h1>
-
-<p>This is a paragraph</p>
+  <h1>This is a Heading</h1>
+  <p>This is a paragraph</p>
 
 </body>
-
 </html>
-
+```
 
 ## HTML Exercises
 
