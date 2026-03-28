@@ -119,6 +119,5 @@ Since the early days of the World Wide Web, there have been many versions of HTM
 *`What does HTML stand for?`*
 
 <br>
-
-> **Answer:** Hyper Text Markup Language
 <details>
+> **Answer:** Hyper Text Markup Language
