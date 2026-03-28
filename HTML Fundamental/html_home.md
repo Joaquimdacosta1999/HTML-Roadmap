@@ -26,7 +26,7 @@ HTML is easy to learn - You will enjoy it!
 ## HTML Exercises
 
 <details>
-<summary><b>Click to see the question and options</b></summary>
+<summary><b>Question 1</b></summary>
 
 **What is a correct syntax for an HTML hyperlink?**
 
