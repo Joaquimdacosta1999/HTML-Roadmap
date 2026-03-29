@@ -38,9 +38,9 @@ Users often skim a page by its headings. It is important to use headings to show
 
 ### For example:
 
-* <h1> - Page title
-* <h2> - Section titles
-* <h3> - Sub-sections
+* `<h1>` - Page title
+* `<h2>` - Section titles
+* `<h3>` - Sub-sections
 
 ### Example
 
