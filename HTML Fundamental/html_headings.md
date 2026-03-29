@@ -1,0 +1,80 @@
+# HTML Headings
+
+HTML headings are titles or subtitles that you want to display on a webpage.
+
+## Example
+
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
+
+## HTML Headings
+
+HTML headings are defined with the `<h1>` to `<h6>` tags.
+
+`<h1>` defines the most important heading. `<h6>` defines the least important heading
+
+### Example
+
+``` html
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+```
+
+## Headings Are Important
+
+Search engines use the headings to index the structure and content of your web pages.
+
+Users often skim a page by its headings. It is important to use headings to show the document structure.
+
+`<h1>` headings should be used for main headings, followed by `<h2>` headings, then the less important `<h3>`, and so on.
+
+### For example:
+
+* <h1> - Page title
+* <h2> - Section titles
+* <h3> - Sub-sections
+
+### Example
+
+``` html
+<h1>Travel Guide</h1>
+
+<h2>Europe</h2>
+<h3>France</h3>
+<h3>Italy</h3>
+
+<h2>Asia</h2>
+<h3>India</h3>
+<h3>Thailand</h3>
+``` 
+* Tip: Use only one `<h1>` per page - it represents the main topic or title.
+
+<b>Note</b>: Use HTML headings for headings only. Don't use headings to make text <b>BIG</b> or <b>bold</b>.
+
+## Bigger Headings
+
+Each HTML heading has a default size. However, you can specify the size for any heading with the style attribute, using the CSS font-size property:
+
+### Example
+
+``` html
+<h1 style="font-size:60px;">Heading 1</h1>
+```
+
+### HTML Tag Reference
+
+Tag reference contains additional information about these tags and their attributes.
+
+| Tag | Description |
+| :--- | :--- |
+| `<html>` | Defines the root of an HTML document |
+| `<body>` | Defines the document's body |
+| `<h1>` to `<h6>` | Defines HTML headings |
