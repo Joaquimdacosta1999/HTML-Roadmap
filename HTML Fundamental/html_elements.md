@@ -123,6 +123,6 @@ Tag reference contains additional information about these tags and their attribu
 
 | Tag | Description |
 | :--- | :--- |
-| <html> | Defines the root of an HTML document |
-| <body> | Defines the document's body |
-| <h1> to <h6> | Defines HTML headings |
+| `<html>` | Defines the root of an HTML document |
+| `<body>` | Defines the document's body |
+| `<h1>` to `<h6>` | Defines HTML headings |
