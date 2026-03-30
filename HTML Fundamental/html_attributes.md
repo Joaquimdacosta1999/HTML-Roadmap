@@ -72,6 +72,10 @@ The style attribute is used to add styles to an element, such as color, font, si
 <p style="color:red;">This is a red paragraph.</p>
 ```
 
+<p>
+<img src="/HTML Fundamental/Source/red paragraph.png">
+</p>
+
 ## The lang Attribute
 
 You should always include the lang attribute inside the `<html>` tag, to declare the language of the Web page. This is meant to assist search engines and browsers.
