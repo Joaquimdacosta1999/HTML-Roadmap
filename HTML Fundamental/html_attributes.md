@@ -15,6 +15,10 @@ The `<a>` tag defines a hyperlink. The href attribute specifies the URL of the p
 <a href="https://www.w3schools.com">Visit W3Schools</a>
 ```
 
+<p>
+<img src="/HTML Fundamental/Source/href attribute.png">
+</p>
+
 ## The src Attribute
 
 The `<img>` tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed:
