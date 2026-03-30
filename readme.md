@@ -2,6 +2,8 @@
 
 This HTML roadmap provides a structured, step-by-step guide from beginner fundamentals to advanced semantic structure and form validation. It covers essential topics including document structure, tag usage, links, media integration, and accessibility, enabling learners to build foundational skills for modern, responsive web development.
 
+[![Keep Streak Alive](https://github.com/Joaquimdacosta1999/HTML-Roadmap/actions/workflows/keep-streak.yml/badge.svg)](https://github.com/Joaquimdacosta1999/HTML-Roadmap/actions/workflows/keep-streak.yml)
+
 ## 🗺️ Roadmap Navigation 
 
 Click any section below to expand the topics.
@@ -95,3 +97,4 @@ Each section includes a **"Try it Yourself"** link where you can edit code and s
 <p>This is a paragraph.</p>
 </body>
 </html>
+```
