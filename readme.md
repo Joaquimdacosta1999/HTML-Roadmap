@@ -8,7 +8,6 @@ Click any section below to expand the topics.
 
 <summary><b>1. HTML Fundamentals</b></summary>
 
-<details>
 <summary><b>1. HTML Fundamentals</b></summary>
 
 * [HTML HOME](https://github.com/Joaquimdacosta1999/HTML-Roadmap/blob/main/HTML%20Fundamental/html_home.md)
@@ -29,7 +28,6 @@ Click any section below to expand the topics.
 * [HTML Images](#)
 * [HTML Favicon](#)
 * [HTML Page Title](#)
-</details>
 
 <summary><b>2. Layout & Structure</b></summary>
 
@@ -43,7 +41,6 @@ Click any section below to expand the topics.
 * [HTML Responsive](#)
 * [HTML Semantics](#)
 
-<details>
 <summary><b>3. Forms & Inputs</b></summary>
 
 * [HTML Forms](#)
@@ -51,9 +48,7 @@ Click any section below to expand the topics.
 * [HTML Form Elements](#)
 * [HTML Input Types](#)
 * [HTML Input Attributes](#)
-</details>
 
-<details>
 <summary><b>4. Graphics & Media</b></summary>
 
 * [HTML Canvas](#)
@@ -61,9 +56,7 @@ Click any section below to expand the topics.
 * [HTML Video](#)
 * [HTML Audio](#)
 * [HTML YouTube](#)
-</details>
 
-<details>
 <summary><b>5. Advanced & Web APIs</b></summary>
 
 * [HTML Web APIs](#)
@@ -71,7 +64,6 @@ Click any section below to expand the topics.
 * [HTML Drag and Drop](#)
 * [HTML Web Storage](#)
 * [HTML SSE](#)
-</details>
 
 ---
 
