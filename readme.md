@@ -6,9 +6,8 @@ This HTML roadmap provides a structured, step-by-step guide from beginner fundam
 
 ## 🗺️ Roadmap Navigation 
 
-Click any section below to expand the topics.
+See The Section Below To Expand The Topics.
 
-<summary><b>1. HTML Fundamentals</b></summary>
 
 <summary><b>1. HTML Fundamentals</b></summary>
 
