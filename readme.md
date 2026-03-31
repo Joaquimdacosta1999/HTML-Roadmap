@@ -33,7 +33,6 @@ Click any section below to expand the topics.
 * [HTML Page Title](#)
 </details>
 
-<details>
 <summary><b>2. Layout & Structure</b></summary>
 
 * [HTML Tables](#)
@@ -45,7 +44,6 @@ Click any section below to expand the topics.
 * [HTML Layout](#)
 * [HTML Responsive](#)
 * [HTML Semantics](#)
-</details>
 
 <details>
 <summary><b>3. Forms & Inputs</b></summary>
