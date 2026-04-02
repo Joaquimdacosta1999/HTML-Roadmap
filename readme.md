@@ -2,6 +2,17 @@
 
 This HTML roadmap provides a structured, step-by-step guide from beginner fundamentals to advanced semantic structure and form validation. It covers essential topics including document structure, tag usage, links, media integration, and accessibility, enabling learners to build foundational skills for modern, responsive web development.
 
+---
+
+## Navigation
+
+- [HTML Fundamentals](./HTML%20Fundamental/)
+- [Forms](./Forms/)
+- [Layout](./layout/)
+- [Media](./Media/)
+- [Projects](./Projects/Portfolio-page/)
+- [Study Log](./study-log.md)
+
 ## 🗺️ Roadmap Navigation 
 
 See The Section Below To Expand The Topics.
@@ -65,7 +76,14 @@ See The Section Below To Expand The Topics.
 * [HTML SSE](#)
 
 ---
+## Progress Tracker
 
+| Date       | Topic Studied       | Status   | Reflection |
+|------------|---------------------|----------|------------|
+| 2026-04-02 | HTML Elements       | ✅ Done  | Learned tags vs attributes |
+| 2026-04-03 | Forms & Inputs      | ⏳ Ongoing | Need more practice with validation |
+
+---
 ## 📖 About This Tutorial
 **Learn HTML**  
 HTML is the standard markup language for web pages. With HTML, you can create your own website. It is easy to learn—you will enjoy it!
