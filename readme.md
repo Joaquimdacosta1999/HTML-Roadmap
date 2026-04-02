@@ -2,8 +2,6 @@
 
 This HTML roadmap provides a structured, step-by-step guide from beginner fundamentals to advanced semantic structure and form validation. It covers essential topics including document structure, tag usage, links, media integration, and accessibility, enabling learners to build foundational skills for modern, responsive web development.
 
-[![Keep Streak Alive](https://github.com/Joaquimdacosta1999/HTML-Roadmap/actions/workflows/keep-streak.yml/badge.svg)](https://github.com/Joaquimdacosta1999/HTML-Roadmap/actions/workflows/keep-streak.yml)
-
 ## 🗺️ Roadmap Navigation 
 
 See The Section Below To Expand The Topics.
@@ -21,9 +19,9 @@ See The Section Below To Expand The Topics.
 * [HTML Paragraphs](https://github.com/Joaquimdacosta1999/HTML-Roadmap/blob/main/HTML%20Fundamental/html_paragraph.md)
 * [HTML Styles](https://github.com/Joaquimdacosta1999/HTML-Roadmap/blob/main/HTML%20Fundamental/html_styles.md)
 * [HTML Formatting](/HTML%20Fundamental/html_text_formatting.md)
-- [HTML Quotation & Citation](/HTML%20Fundamental/html_quotation_and_citation_element.md)
+* [HTML Quotation & Citation](/HTML%20Fundamental/html_quotation_and_citation_element.md)
 * [HTML Comments](/HTML%20Fundamental/html_comments.md)
-* [HTML Colors](#)
+* [HTML Colors](/HTML%20Fundamental/html_colors.md)
 * [HTML CSS](#)
 * [HTML Links](#)
 * [HTML Images](#)
