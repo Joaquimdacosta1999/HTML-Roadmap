@@ -44,9 +44,9 @@ The required `src` attribute specifies the path (URL) to the image.
 <b>Note</b>: When a web page loads, it is the browser, at that moment, that gets the image from a web server and inserts it into the page. Therefore, make sure that the image actually stays in the same spot in relation to the web page, otherwise your visitors will get a broken `link` icon. The broken `link` icon and the alt text are shown if the browser cannot find the image.
 
 ### Example
-
+``` html
 <img src="img_chania.jpg" alt="Flowers in Chania">
-
+```
 ## The alt Attribute
 
 The required `alt` attribute provides an alternate text for an image, if the user for some reason cannot view it (because of slow connection, an error in the `src` attribute, or if the user uses a screen reader).
@@ -205,3 +205,176 @@ A paragraph with a floating image. A paragraph with a floating image. A paragrap
 </body>
 </html>
 ```
+---
+
+## HTML Image Maps
+
+With HTML image maps, you can create clickable areas on an image.
+
+## Image Maps
+
+The HTML `<map>` tag defines an image map. An image map is an image with clickable areas. The areas are defined with one or more `<area>` tags.
+
+### Example
+
+Here is the HTML source code for the image map above:
+
+``` html 
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Image Maps</h2>
+<p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p>
+
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+</map>
+
+</body>
+</html>
+```
+The idea behind an image map is that you should be able to perform different actions depending on where in the image you click.
+
+To create an image map you need an image, and some HTML code that describes the clickable areas.
+
+## The Image
+
+The image is inserted using the `<img>` tag. The only difference from other images is that you must add a usemap attribute:
+
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+
+The usemap value starts with a hash tag # followed by the name of the image map, and is used to create a relationship between the image and the image map.
+
+## Create Image Map
+
+Then, add a `<map>` element.
+
+The `<map>` element is used to create an image map, and is linked to the image by using the required name attribute:
+
+`<map name="workmap">`
+
+The name attribute must have the same value as the `<img>`'s usemap attribute .
+
+
+## The Areas
+
+Then, add the clickable areas.
+
+A clickable area is defined using an `<area>` element.
+
+## Shape
+
+You must define the shape of the clickable area, and you can choose one of these values:
+
+- <b>rect</b> - defines a rectangular region
+- <b>circle</b> - defines a circular region
+- <b>poly</b> - defines a polygonal region
+- <b>default</b> - defines the entire region
+
+You must also define some coordinates to be able to place the clickable area onto the image. 
+
+<b>Shape="rect"</b>
+
+The coordinates for `shape="rect"` come in pairs, one for the x-axis and one for the y-axis.
+
+So, the coordinates 34,44 is located 34 pixels from the left margin and 44 pixels from the top:
+<p><img src="/HTML Fundamental/Source/34.png"></p>
+
+### Workplace
+
+The coordinates 270,350 is located 270 pixels from the left margin and 350 pixels from the top:
+<p>
+<img src="/HTML Fundamental/Source/270,350.png">
+</p>
+
+### Workplace
+
+Now we have enough data to create a clickable rectangular area:
+
+### Example
+``` html
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Image Maps</h2>
+<p>Click on the cup of coffee to go to a new page and read more about the topic:</p>
+
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+<map name="workmap">
+  <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+</map>
+
+</body>
+</html>
+```
+<p><img src="/HTML Fundamental/Source/coffee.htm.png"></p>
+
+This is the area that becomes clickable and will send the user to the page "computer.htm":
+
+Workplace
+Shape="circle"
+To add a circle area, first locate the coordinates of the center of the circle:
+
+337,300
+
+Workplace
+Then specify the radius of the circle:
+
+44 pixels
+
+Workplace
+Now you have enough data to create a clickable circular area:
+
+Example
+<area shape="circle" coords="337, 300, 44" href="coffee.htm">
+This is the area that becomes clickable and will send the user to the page "coffee.htm":
+
+Workplace
+Shape="poly"
+The shape="poly" contains several coordinate points, which creates a shape formed with straight lines (a polygon).
+
+This can be used to create any shape.
+
+Like maybe a croissant shape!
+
+How can we make the croissant in the image below become a clickable link?
+
+French Food
+We have to find the x and y coordinates for all edges of the croissant:
+
+French Food
+The coordinates come in pairs, one for the x-axis and one for the y-axis:
+
+Example
+<area shape="poly" coords="140,121,181,116,204,160,204,222,191,270,140,329,85,355,58,352,37,322,40,259,103,161,128,147" href="croissant.htm">
+This is the area that becomes clickable and will send the user to the page "croissant.htm":
+
+French Food
+Image Map and JavaScript
+A clickable area can also trigger a JavaScript function.
+
+Add a click event to the <area> element to execute a JavaScript function:
+
+Example
+Here, we use the onclick attribute to execute a JavaScript function when the area is clicked:
+
+<map name="workmap">
+  <area shape="circle" coords="337,300,44" href="coffee.htm" onclick="myFunction()">
+</map>
+
+<script>
+function myFunction() {
+  alert("You clicked the coffee cup!");
+}
+</script>
+Chapter Summary
+Use the HTML <map> element to define an image map
+Use the HTML <area> element to define the clickable areas in the image map
+Use the HTML usemap attribute of the <img> element to point to an image map
