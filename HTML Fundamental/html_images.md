@@ -316,54 +316,25 @@ Now we have enough data to create a clickable rectangular area:
 ```
 <p><img src="/HTML Fundamental/Source/coffee.htm.png"></p>
 
-This is the area that becomes clickable and will send the user to the page "computer.htm":
+## Image Map and JavaScript
 
-Workplace
-Shape="circle"
-To add a circle area, first locate the coordinates of the center of the circle:
-
-337,300
-
-Workplace
-Then specify the radius of the circle:
-
-44 pixels
-
-Workplace
-Now you have enough data to create a clickable circular area:
-
-Example
-<area shape="circle" coords="337, 300, 44" href="coffee.htm">
-This is the area that becomes clickable and will send the user to the page "coffee.htm":
-
-Workplace
-Shape="poly"
-The shape="poly" contains several coordinate points, which creates a shape formed with straight lines (a polygon).
-
-This can be used to create any shape.
-
-Like maybe a croissant shape!
-
-How can we make the croissant in the image below become a clickable link?
-
-French Food
-We have to find the x and y coordinates for all edges of the croissant:
-
-French Food
-The coordinates come in pairs, one for the x-axis and one for the y-axis:
-
-Example
-<area shape="poly" coords="140,121,181,116,204,160,204,222,191,270,140,329,85,355,58,352,37,322,40,259,103,161,128,147" href="croissant.htm">
-This is the area that becomes clickable and will send the user to the page "croissant.htm":
-
-French Food
-Image Map and JavaScript
 A clickable area can also trigger a JavaScript function.
 
-Add a click event to the <area> element to execute a JavaScript function:
+Add a `click` event to the `<area>` element to execute a JavaScript function:
 
-Example
+### Example
+
 Here, we use the onclick attribute to execute a JavaScript function when the area is clicked:
+``` html
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Image Maps</h2>
+
+<p>Click on the cup of coffee to execute a JavaScript function:</p>
+
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
 
 <map name="workmap">
   <area shape="circle" coords="337,300,44" href="coffee.htm" onclick="myFunction()">
@@ -374,7 +345,13 @@ function myFunction() {
   alert("You clicked the coffee cup!");
 }
 </script>
-Chapter Summary
-Use the HTML <map> element to define an image map
-Use the HTML <area> element to define the clickable areas in the image map
-Use the HTML usemap attribute of the <img> element to point to an image map
+
+</body>
+</html>
+```
+
+## Chapter Summary
+
+- Use the HTML `<map>` element to define an image map
+- Use the HTML `<area>` element to define the clickable areas in the image map
+- Use the HTML `usemap` attribute of the `<img>` element to point to an image map
