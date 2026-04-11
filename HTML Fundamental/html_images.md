@@ -355,3 +355,213 @@ function myFunction() {
 - Use the HTML `<map>` element to define an image map
 - Use the HTML `<area>` element to define the clickable areas in the image map
 - Use the HTML `usemap` attribute of the `<img>` element to point to an image map
+
+---
+
+## HTML Background Images
+
+A background image can be specified for almost any HTML element.
+
+## Background Image on an HTML element
+
+To add a background image on an HTML element, use the HTML style attribute and the CSS background-image property:
+
+``` html
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Background Image</h2>
+
+<p>A background image for a p element:</p>
+
+<p style="background-image: url('img_girl.jpg');">
+You can specify background images<br>
+for any visible HTML element.<br>
+In this example, the background image<br>
+is specified for a p element.<br>
+By default, the background-image<br>
+will repeat itself in the direction(s)<br>
+where it is smaller than the element<br>
+where it is specified. (Try resizing the<br>
+browser window to see how the<br>
+background image behaves.
+</p>
+
+</body>
+</html>
+```
+<p><img src="/HTML Fundamental/Source/background.png"></p>
+
+You can also specify the background image in the `<style>` element, in the `<head>` section:
+
+``` html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+  background-image: url('img_girl.jpg');
+}
+</style>
+</head>
+<body>
+
+<h2>Background Image</h2>
+
+<p>You can specify background images<br>
+for any visible HTML element.<br>
+In this example, the background image<br>
+is specified for a div element.<br>
+By default, the background-image<br>
+will repeat itself in the direction(s)<br>
+where it is smaller than the element<br>
+where it is specified. (Try resizing the<br>
+browser window to see how the<br>
+background image behaves.</p>
+
+</body>
+</html>
+```
+
+## Background Image on a Page
+
+If you want the entire page to have a background image, you must specify the background image on the `<body>` element:
+
+### Example
+Add a background image for the entire page:
+
+``` html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-image: url('img_girl.jpg');
+}
+</style>
+</head>
+<body>
+
+<h2>Background Image</h2>
+
+<p>By default, the background image will repeat itself if it is smaller than the element where it is specified, in this case the body element.</p>
+
+</body>
+</html>
+```
+<p><img src="/HTML Fundamental/Source/body-background.png"></p>
+
+## Background Repeat
+
+If the background image is smaller than the element, the image will repeat itself, horizontally and vertically, until it reaches the end of the element:
+
+``` html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-image: url('example_img_girl.jpg');
+}
+</style>
+</head>
+<body>
+
+<h2>Background Repeat</h2>
+
+<p>By default, the background image will repeat itself if it is smaller than the element where it is specified, in this case the body element.</p>
+
+</body>
+</html>
+```
+<p><img src="/HTML Fundamental/Source/background-repeat.png"></p>
+
+To avoid the background image from repeating itself, set the `background-repeat` property to `no-repeat`.
+
+``` html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-image: url('example_img_girl.jpg');
+  background-repeat: no-repeat;
+}
+</style>
+</head>
+<body>
+
+<h2>Background No Repeat</h2>
+
+<p>You can avoid the image from being repeated by setting the background-repeat property to "no-repeat".</p>
+
+</body>
+</html>
+```
+
+## Background Cover
+
+If you want the background image to cover the entire element, you can set the `background-size` property to cover.
+
+Also, to make sure the entire element is always covered, set the `background-attachment` property to `fixed`:
+
+This way, the background image will cover the entire element, with no stretching (the image will keep its original proportions):
+
+``` html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-image: url('img_girl.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+</style>
+</head>
+<body>
+
+<h2>Background Cover</h2>
+
+<p>Set the background-size property to "cover" and the background image will cover the entire element, in this case the body element.</p>
+
+</body>
+</html>
+```
+<p><img src="/HTML Fundamental/Source/background-fixed.png"></p>
+
+## Background Stretch
+
+If you want the background image to stretch to fit the entire element, you can set the `background-size` property to `100% 100%`
+
+Try resizing the browser window, and you will see that the image will stretch, but always cover the entire element.
+
+``` html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-image: url('img_girl.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+</style>
+</head>
+<body>
+
+<h2>Background Stretch</h2>
+
+<p>Set the background-size property to "100% 100%" and the background image will be stretched to cover the entire element, in this case the body element.</p>
+
+</body>
+</html>
+```
+<p><img src="/HTML Fundamental/Source/background-100.png"></p>
+
+
+
+
