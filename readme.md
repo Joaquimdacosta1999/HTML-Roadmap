@@ -37,7 +37,7 @@ See The Section Below To Expand The Topics.
 * [HTML Links](/HTML%20Fundamental/html_links.md)
 * [HTML Images](/HTML%20Fundamental/html_images.md)
 * [HTML Favicon](/HTML%20Fundamental/html_favicon.md)
-* [HTML Page Title](#)
+* [HTML Page Title](/HTML%20Fundamental/html_page_title.md)
 
 <summary><b>2. Layout & Structure</b></summary>
 
